@@ -4,12 +4,77 @@
       <img src="/assets/pokeball.svg" alt="logo pokeball" />
       <strong>POKESTORE</strong>
     </div>
-
+    <img class="search" src="/assets/lupa.svg" alt="Busqueda" />
     <input type="search" placeholder="Busca tu pokemon" />
     <nav>
-      <a href="#slider">Home</a>
+      <a href="/index.html">Home</a>
       <a href="#products">Productos</a>
       <a href="#contact">Contactanos</a>
     </nav>
+    <div class="hamburger">
+      <img
+        class="btn-open"
+        src="/assets/menu-burger.svg"
+        alt="btn hamburgesa" />
+      <img class="btn-close none" src="/assets/hamburgesa X.svg" alt="btn X" />
+    </div>
   </div>
 </header>
+
+<main>
+  <section class="products" id="products">
+    <div class="administrator container">
+      <h3>Todos los productos</h3>
+      <button class="btn" id="administrator">Administrar productos</button>
+    </div>
+    <article class="products-container container">
+      <template id="template">
+        <figure>
+          <img class="image" src="" alt="" />
+          <figcaption class="name"></figcaption>
+          <figcaption class="price"></figcaption>
+          <figcaption class="link"><a href="">Ver mas</a></figcaption>
+        </figure>
+      </template>
+    </article>
+  </section>
+  <section class="contact" id="contact">
+    <article class="contact container">
+      <div class="logo">
+        <img src="/assets/pokeball.svg" alt="logo pokeball" />
+        <strong>POKESTORE</strong>
+      </div>
+      <div class="values">
+        <p>Quienes somos</p>
+        <p>Politica de privacidad</p>
+        <p>programa de fidelidad</p>
+        <p>Nuestras tiendas</p>
+        <p>Quiero ser franquiciado</p>
+        <p>Anunciate aqui</p>
+      </div>
+      <form>
+        <h4>Hable con nosotros</h4>
+        <input type="text" placeholder="Nombre" />
+        <textarea
+          placeholder="Envia tus comentarios"
+          name=""
+          id=""
+          cols="10"
+          rows="5"></textarea>
+        <input class="btn" type="submit" value="Enviar" />
+      </form>
+    </article>
+  </section>
+</main>
+<footer>
+  <small>Desarrollado por Enrique Cervantes</small>
+  <small>2023</small>
+</footer>
+
+<section class="menu-nodal">
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="#products">Productos</a>
+    <a href="#contact">Contactanos</a>
+  </nav>
+</section>

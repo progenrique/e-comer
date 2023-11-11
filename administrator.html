@@ -3,15 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="shortcut icon" href="/assets/pokeball.svg" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>Poke Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
@@ -23,7 +16,7 @@
         <img class="search" src="/assets/lupa.svg" alt="Busqueda" />
         <input type="search" placeholder="Busca tu pokemon" />
         <nav>
-          <a href="#slider">Home</a>
+          <a href="/index.html">Home</a>
           <a href="#products">Productos</a>
           <a href="#contact">Contactanos</a>
         </nav>
@@ -41,29 +34,13 @@
     </header>
 
     <main>
-      <section class="">
-        <div class="slider" id="slider">
-          <div class="slider-slides">
-            <div class="slider-slide active">
-              <img src="/assets/pikachu.jpg" alt="Pikachu" />
-            </div>
-            <div class="slider-slide">
-              <img src="/assets/Bulbasaur.png" alt="Bulbasaur" />
-            </div>
-            <div class="slider-slide">
-              <img src="/assets/charmander.jpg" alt="Charmander" />
-            </div>
-            <div class="slider-slide">
-              <img src="/assets/squirtle.png" alt="Squirtle" />
-            </div>
-          </div>
-          <div class="slider-btns">
-            <a class="after-btn" href="#">&laquo;</a>
-            <a class="next-btn" href="#">&raquo;</a>
-          </div>
-        </div>
-      </section>
       <section class="products" id="products">
+        <div class="administrator container">
+          <h3>Menu administrador</h3>
+          <button class="btn add">Agregar</button>
+          <button class="btn edit">Modificar</button>
+          <button class="btn delete">Eliminar</button>
+        </div>
         <article class="products-container container">
           <template id="template">
             <figure>
@@ -74,7 +51,6 @@
             </figure>
           </template>
         </article>
-        <a class="container link-btn" id="products">Ver todo </a>
       </section>
       <section class="contact" id="contact">
         <article class="contact container">
@@ -104,17 +80,18 @@
         </article>
       </section>
     </main>
+
     <footer>
       <small>Desarrollado por Enrique Cervantes</small>
       <small>2023</small>
     </footer>
+
     <section class="menu-nodal">
       <nav>
-        <a href="#slider">Home</a>
+        <a href="/index.html">Home</a>
         <a href="#products">Productos</a>
         <a href="#contact">Contactanos</a>
       </nav>
     </section>
   </body>
-  <script src="/index.js" type="module"></script>
 </html>

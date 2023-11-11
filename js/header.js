@@ -16,4 +16,14 @@ export default function header() {
 
   mq.addEventListener("change", mediaQuerry);
   mediaQuerry(mq);
+
+  document.addEventListener("click", (e) => {
+    if (e.target.matches(".search")) {
+      const $input = document.querySelector(".header input"),
+        $lupa = document.querySelector(".search");
+
+      $input.classList.remove("none");
+      $lupa.classList.add("none");
+    }
+  });
 }
