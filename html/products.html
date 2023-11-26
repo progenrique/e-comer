@@ -3,8 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/assets/pokeball.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Poke Store</title>
   </head>
   <body>
     <header class="header">
@@ -32,14 +39,13 @@
         </div>
       </div>
     </header>
-
     <main>
-      <section class="products" id="products">
+      <section class="container-elements">
         <div class="administrator container">
-          <h3>Menu administrador</h3>
-          <button class="btn add">Agregar</button>
-          <button class="btn edit">Modificar</button>
-          <button class="btn delete">Eliminar</button>
+          <h3>Todos los productos</h3>
+          <button class="btn" id="administrator">
+            <a href="/html/administrator.html">Administrar productos</a>
+          </button>
         </div>
         <article class="products-container container">
           <template id="template">
@@ -51,7 +57,9 @@
             </figure>
           </template>
         </article>
+        <a class="link-btn container" href="/index.html">regresar</a>
       </section>
+
       <section class="contact" id="contact">
         <article class="contact container">
           <div class="logo">
@@ -80,18 +88,10 @@
         </article>
       </section>
     </main>
-
     <footer>
       <small>Desarrollado por Enrique Cervantes</small>
       <small>2023</small>
     </footer>
-
-    <section class="menu-nodal">
-      <nav>
-        <a href="/index.html">Home</a>
-        <a href="#products">Productos</a>
-        <a href="#contact">Contactanos</a>
-      </nav>
-    </section>
   </body>
+  <script src="/js/index-products.js" type="module"></script>
 </html>

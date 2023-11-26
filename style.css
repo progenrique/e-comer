@@ -55,7 +55,7 @@ h1 {
 }
 h2 {
   margin: 0;
-  font-size: 1.5;
+  font-size: 1.5rem;
 }
 h3 {
   margin: 0;
@@ -248,7 +248,7 @@ footer small {
   background-color: white;
 }
 
-.products a {
+.products-container a {
   color: #3c3ff6;
 }
 .products-container {
@@ -270,6 +270,7 @@ footer small {
 .administrator {
   display: flex;
   justify-content: space-between;
+  margin-top: 1.5rem;
 }
 
 .link-btn {
@@ -302,6 +303,38 @@ footer small {
   font-size: var(--step--1);
   width: 50%;
 }
+
+/* -------administrator------- */
+.administrator-container {
+  margin-top: 2rem;
+}
+.administrator-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 60%;
+  margin: 1rem auto 0 auto;
+}
+
+.administrator-form textarea {
+  margin-top: 1.5rem;
+}
+
+.administrator-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.administrator-form input {
+  margin-top: 1rem;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-top: 0.8rem;
+}
+
 @media screen and (max-width: 720px) {
   /* .header input,
   .header nav {

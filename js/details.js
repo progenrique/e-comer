@@ -4,24 +4,26 @@ import search from "/js/search.js";
 
 export async function detailsHtml() {
   try {
-    const $body = document.querySelector("body");
+    console.log("html");
+    const $container = document.querySelector(".container-elements");
 
-    let respuesta = await axios.get("./details.html");
-    $body.innerHTML = respuesta.data;
+    let respuesta = await axios.get("../html/details.html");
+    console.log(respuesta);
+    $container.outerHTML = respuesta.data;
   } catch (err) {}
 }
 
-export async function details(name) {
+export async function details(id) {
   try {
     const $container = document.querySelector(".details-container");
     const $template = document.getElementById("details-template").content;
     const $fragment = document.createDocumentFragment();
 
-    let pokemones = await axios.get("/json/pokemon.json"),
+    let pokemones = await axios.get("http://localhost:5555/results"),
       json = await pokemones.data;
 
-    json.results.forEach((el) => {
-      if (name === el.name) {
+    json.forEach((el) => {
+      if (id === el.id) {
         $template.querySelector(".details-title").innerHTML =
           el.name.toUpperCase();
         $template.querySelector(".details-image").src = el.image;

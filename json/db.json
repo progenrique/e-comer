@@ -2,75 +2,76 @@
   "results": [
     {
       "name": "bulbasaur",
-      "url": "https://pokeapi.co/api/v2/pokemon/1/",
-      "price": "$3.00",
+      "price": "3.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-      "description": "La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol. A BULBASAUR es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol. Este POKéMON nace con una semilla en el lomo."
+      "description": "La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol. A BULBASAUR es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol. Este POKéMON nace con una semilla en el lomo.",
+      "id": "1"
     },
     {
+      "id": "2",
       "name": "ivysaur",
-      "url": "https://pokeapi.co/api/v2/pokemon/2/",
       "price": "$10.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
       "description": "Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande. Soporta el peso del bulbo gracias a sus fuertes patas y a su tronco."
     },
     {
+      "id": "3",
       "name": "venusaur",
-      "url": "https://pokeapi.co/api/v2/pokemon/3/",
       "price": "$13.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
       "description": "Venusaur se carga de energía al extender sus grandes pétalos de flor y absorber los rayos del sol"
     },
     {
+      "id": "4",
       "name": "charmander",
-      "url": "https://pokeapi.co/api/v2/pokemon/4/",
       "price": "$23.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
       "description": "Charmander es un pequeño monstruo bípedo parecido a un lagarto. Sus características de fuego son resaltadas por su color de piel anaranjado y su cola, cuya punta está envuelta en llamas. Charmander y sus evoluciones, Charmeleon y Charizard, tienen una pequeña llama en la punta de sus colas desde que nacen."
     },
     {
+      "id": "5",
       "name": "charmeleon",
-      "url": "https://pokeapi.co/api/v2/pokemon/5/",
       "price": "$33.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
       "description": "Pokémon de tipo fuego introducido en la primera generación. Es la evolución de Charmander, uno de los Pokémon iniciales de los entrenadores que comienzan su aventura en la región de Kanto"
     },
     {
+      "id": "6",
       "name": "charizard",
-      "url": "https://pokeapi.co/api/v2/pokemon/6/",
       "price": "$43.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
       "description": "Se trata de un pokémon tipo fuego/volador, que aparece por primera vez en Pokémon Red y Blue (rojo y azul), donde puede ser obtenido si el jugador elige como Pokémon inicial a Charmander y lo lleva hasta el nivel 36, donde evoluciona a Charizard habiendo pasado con anterioridad por Charmeleon a nivel 16."
     },
     {
+      "id": "7",
       "name": "squirtle",
-      "url": "https://pokeapi.co/api/v2/pokemon/7/",
       "price": "$63.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
       "description": "Su forma redondeada y las hendiduras que tiene le ayudan a reducir su resistencia al agua y le permiten nadar a gran velocidad. El caparazón de SQUIRTLE no sólo lo protege; su forma redondeada y sus hendiduras reducen su resistencia al agua y le permiten nadar más rápido."
     },
     {
+      "id": "8",
       "name": "wartortle",
-      "url": "https://pokeapi.co/api/v2/pokemon/8/",
       "price": "$23.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
       "description": "Pokémon de tipo agua introducido en la primera generación. Es la evolución de Squirtle, uno de los Pokémon iniciales de Kanto."
     },
     {
+      "id": "9",
       "name": "blastoise",
-      "url": "https://pokeapi.co/api/v2/pokemon/9/",
       "price": "$33.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
       "description": "Es un Pokémon violento. Tiene reactores de agua en el caparazón, que le sirven para atacar con fuerza. Los chorros de agua que lanza por los tubos de su caparazón pueden atravesar el acero. Los chorros de agua que lanza por los tubos de su caparazón pueden atravesar el acero."
     },
     {
+      "id": "10",
       "name": "caterpie",
-      "url": "https://pokeapi.co/api/v2/pokemon/10/",
       "price": "$83.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
       "description": "Caterpie tiene un apetito voraz. Es capaz de devorar hojas que superen su tamaño en un abrir y cerrar de ojos. Atención a la antena que tiene: libera un hedor realmente fuerte. A menudo resulta presa de Pokémon pájaro, frente a los que su única defensa es el hedor repulsivo que libera por su antena."
     },
     {
+      "id": "11",
       "name": "metapod",
       "url": "https://pokeapi.co/api/v2/pokemon/11/",
       "price": "$13.00",
@@ -78,64 +79,64 @@
       "description": "La capa que recubre el cuerpo de este POKéMON es tan dura como una plancha de hierro. METAPOD apenas se mueve. Permanece inmóvil para que las vísceras evolucionen dentro de la coraza que le rodea. La capa que recubre el cuerpo de este POKéMON es tan dura como una plancha de hierro."
     },
     {
+      "id": "12",
       "name": "butterfree",
-      "url": "https://pokeapi.co/api/v2/pokemon/12/",
       "price": "$83.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
       "description": "Butterfree tiene una habilidad especial para encontrar rico néctar en las flores. Localiza, extrae y transporta polen de flores que están a 10 km de distancia. Tiene las alas protegidas con una capa impermeable, de ahí que pueda volar también cuando llueve."
     },
     {
+      "id": "13",
       "name": "weedle",
-      "url": "https://pokeapi.co/api/v2/pokemon/13/",
       "price": "$53.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
       "description": "Tiene afilado y venenoso aguijón de unos 5 cm encima de su cabeza. Su venenoso aguijón es muy potente y su colorido cuerpo hace que los enemigos huyan. Weedle tiene un finísimo sentido del olfato. Es capaz de distinguir las hojas que le gustan de las que no le gustan olisqueando un poco con la gran nariz que tiene."
     },
     {
+      "id": "14",
       "name": "kakuna",
-      "url": "https://pokeapi.co/api/v2/pokemon/14/",
       "price": "$83.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
       "description": "KAKUNA permanece prácticamente inmóvil al encaramarse a los árboles. Aunque la actividad interna de su organismo tiene un ritmo frenético, pues se prepara para su evolución. Prueba de esto es la alta temperatura de la piel. KAKUNA permanece prácticamente inmóvil al encaramarse a los árboles."
     },
     {
+      "id": "15",
       "name": "beedrill",
-      "url": "https://pokeapi.co/api/v2/pokemon/15/",
       "price": "$63.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
       "description": "Los BEEDRILL defienden su territorio a toda costa. No es conveniente acercarse a su colmena, por seguridad. Si se les molesta, todo un enjambre atacará ferozmente. Los BEEDRILL defienden su territorio a toda costa."
     },
     {
+      "id": "16",
       "name": "pidgey",
-      "url": "https://pokeapi.co/api/v2/pokemon/16/",
       "price": "$73.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
       "description": "Pidgey tiene un sentido de la orientación muy desarrollado. Aunque se encuentre muy lejos de las zonas que le resultan familiares, es capaz de regresar a su nido. A este Pokémon no le gusta luchar. Suele permanecer escondido en zonas de hierba alta."
     },
     {
+      "id": "17",
       "name": "pidgeotto",
-      "url": "https://pokeapi.co/api/v2/pokemon/17/",
       "price": "$33.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
       "description": "PIDGEOTTO se apodera de una zona muy vasta como su territorio y la sobrevuela para controlarla. Si alguien invade su espacio vital, no tendrá ningún reparo en castigarlo con sus afiladas garras. Se hace con un territorio muy vasto y lo sobrevuela para controlarlo."
     },
     {
+      "id": "18",
       "name": "pidgeot",
-      "url": "https://pokeapi.co/api/v2/pokemon/18/",
       "price": "$13.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
       "description": "Este Pokémon vuela a una velocidad de 2 mach en busca de presas. Sus grandes garras son armas muy peligrosas. Este Pokémon vuela a una velocidad de 2 mach en busca de presas. Sus grandes garras son armas muy peligrosas."
     },
     {
+      "id": "19",
       "name": "rattata",
-      "url": "https://pokeapi.co/api/v2/pokemon/19/",
       "price": "$93.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
       "description": "Rattata es un Pokémon con forma de ratón, de una tonalidad púrpura con el vientre de color crema."
     },
     {
+      "id": "20",
       "name": "raticate",
-      "url": "https://pokeapi.co/api/v2/pokemon/20/",
       "price": "$23.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
       "description": "Raticate se asemeja a una rata noruega o rata marrón. Tiene la piel marrón claro y una larga cola. Sus colmillos son grandes, duros y firmes, y le permiten roer cualquier cosa."
