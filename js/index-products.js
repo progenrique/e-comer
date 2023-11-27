@@ -16,7 +16,6 @@ document.addEventListener("click", async (e) => {
     e.preventDefault();
 
     await detailsHtml();
-    console.log(e.target);
     details(e.target.dataset.link);
   }
 });

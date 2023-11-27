@@ -77,7 +77,6 @@ export async function put(btn) {
 }
 
 export async function borrar(btn) {
-  console.log("borrar 2");
   try {
     let isDelete = confirm(`estas seguro eliminar ${btn.dataset.name}`);
     if (isDelete) {

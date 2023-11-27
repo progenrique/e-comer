@@ -142,11 +142,11 @@
       "description": "Raticate se asemeja a una rata noruega o rata marrón. Tiene la piel marrón claro y una larga cola. Sus colmillos son grandes, duros y firmes, y le permiten roer cualquier cosa."
     },
     {
-      "name": "pikachu",
-      "price": "15.00",
-      "image": "https://i.pinimg.com/564x/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg",
-      "description": "pokemon electrico",
-      "id": "8lLRO8u"
+      "name": "bulbasaur",
+      "price": "3.00",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "description": "ffff",
+      "id": "SnKTj1w"
     }
   ]
 }

@@ -23,7 +23,6 @@ document.addEventListener("click", (e) => {
     put(e.target);
   }
   if (e.target.matches(".delete-btn")) {
-    console.log("borrar");
     borrar(e.target);
   }
 });
