@@ -3,6 +3,7 @@ import header from "/js/header.js";
 import search from "/js/search.js";
 import getProductsAdministrator from "./request-administrator.js";
 import { borrar, post, put } from "./axios.js";
+
 document.addEventListener("DOMContentLoaded", async (e) => {
   await getProductsAdministrator();
   header();

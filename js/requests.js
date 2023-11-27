@@ -4,9 +4,9 @@ export default async function getProducts(elementosMostrar) {
     $fragment = document.createDocumentFragment();
   //http://localhost:5555/results
   try {
-    let pokemones = await axios.get("../json/db.json"),
-      json = await pokemones.data.results;
-    console.log(json);
+    let pokemones = await axios.get("http://localhost:5555/results"),
+      json = await pokemones.data;
+
     let em = elementosMostrar || json.length;
     for (let i = 0; i < em; i++) {
       $template.querySelector(".name").innerHTML = json[i].name;

@@ -67,6 +67,10 @@ export async function put(btn) {
         $form.id.value = el.id;
       }
     });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   } catch (err) {
     console.log(err);
   }
@@ -81,6 +85,7 @@ export async function borrar(btn) {
         `http://localhost:5555/results/${btn.dataset.id}`
       );
     }
+    location.reload();
   } catch (err) {
     console.log(err);
   }

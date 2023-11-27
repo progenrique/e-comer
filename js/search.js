@@ -1,29 +1,38 @@
 export default function search() {
-  const $figures = document.querySelectorAll("[data-pokemon]"),
-    $input = document.querySelector(".header input"),
-    $products = document.querySelector(".products-container");
+  try {
+    const $figures = document.querySelectorAll("[data-pokemon]"),
+      $input = document.querySelector(".header input"),
+      $products = document.querySelector(".products-container");
+    $input.addEventListener("keyup", async (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        let encontrado = false;
 
-  $input.addEventListener("keyup", (e) => {
-    if (e.key === "Enter") {
-      e.preventDefault(); // Evita la acción predeterminada del formulario
-      let encontrado = false;
+        let pokemones = await axios.get("http://localhost:5555/results"),
+          json = await pokemones.data;
 
-      for (let i = 0; i < $figures.length; i++) {
-        if (e.target.value === $figures[i].dataset.pokemon) {
-          console.log("Si está el Pokémon");
-          let $figure = $figures[i];
-          $products.innerHTML = ``;
-          $products.appendChild($figure);
+        for (let i = 0; i < json.length; i++) {
+          if (e.target.value === json[i].name) {
+            let $figure = `
+            <figure>
+              <img class="image" src="${json[i].image}" alt="" />
+              <figcaption class="name">${json[i].name}</figcaption>
+              <figcaption class="price">${json[i].price}</figcaption>
+              <figcaption class="link"><a href="" data-link=${json[i].id} >Ver mas</a></figcaption>
+            </figure>`;
+            $products.innerHTML = ``;
+            $products.insertAdjacentHTML("afterbegin", $figure);
 
-          encontrado = true;
-          break;
+            encontrado = true;
+            break;
+          }
+        }
+
+        if (!encontrado) {
+          console.log("No se encontró el Pokémon");
+          $products.innerHTML = `<h2>El Pokémon ${e.target.value} no existe o no está en stock</h2>`;
         }
       }
-
-      if (!encontrado) {
-        console.log("No se encontró el Pokémon");
-        $products.innerHTML = `<h2>El Pokémon ${e.target.value} no existe o no está en stock</h2>`;
-      }
-    }
-  });
+    });
+  } catch (err) {}
 }

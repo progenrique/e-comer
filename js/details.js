@@ -4,11 +4,10 @@ import search from "/js/search.js";
 
 export async function detailsHtml() {
   try {
-    console.log("html");
     const $container = document.querySelector(".container-elements");
 
     let respuesta = await axios.get("../html/details.html");
-    console.log(respuesta);
+
     $container.outerHTML = respuesta.data;
   } catch (err) {}
 }
