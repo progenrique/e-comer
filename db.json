@@ -140,13 +140,6 @@
       "price": "$23.00",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
       "description": "Raticate se asemeja a una rata noruega o rata marrón. Tiene la piel marrón claro y una larga cola. Sus colmillos son grandes, duros y firmes, y le permiten roer cualquier cosa."
-    },
-    {
-      "name": "bulbasaur",
-      "price": "3.00",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-      "description": "ffff",
-      "id": "SnKTj1w"
     }
   ]
 }
