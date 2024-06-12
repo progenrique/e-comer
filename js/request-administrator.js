@@ -4,7 +4,9 @@ export default async function getProductsAdministrator() {
     $fragment = document.createDocumentFragment();
 
   try {
-    let pokemones = await axios.get("http://localhost:5555/results"),
+    let pokemones = await axios.get(
+        "https://api-json-server-omega.vercel.app/results"
+      ),
       json = await pokemones.data;
     $template
       .querySelector("figure")

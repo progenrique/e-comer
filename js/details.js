@@ -18,7 +18,9 @@ export async function details(id) {
     const $template = document.getElementById("details-template").content;
     const $fragment = document.createDocumentFragment();
 
-    let pokemones = await axios.get("http://localhost:5555/results"),
+    let pokemones = await axios.get(
+        "https://api-json-server-omega.vercel.app/results"
+      ),
       json = await pokemones.data;
 
     json.forEach((el) => {

@@ -8,7 +8,9 @@ export default function search() {
         e.preventDefault();
         let encontrado = false;
 
-        let pokemones = await axios.get("http://localhost:5555/results"),
+        let pokemones = await axios.get(
+            "https://api-json-server-omega.vercel.app/results"
+          ),
           json = await pokemones.data;
 
         for (let i = 0; i < json.length; i++) {

@@ -8,7 +8,10 @@ export async function post(form) {
         description: form.description.value,
       };
       console.log(options);
-      let res = await axios.post("http://localhost:5555/results", options);
+      let res = await axios.post(
+        "https://api-json-server-omega.vercel.app/results",
+        options
+      );
     } catch (err) {
       const $formContainer = document.querySelector(".administrator-form");
       console.log(err.message);
@@ -55,7 +58,9 @@ export async function put(btn) {
     const $form = document.querySelector(".form"),
       $figure = document.querySelector(`[data-id = "${btn.dataset.id}"]`);
 
-    let pokemones = await axios.get("http://localhost:5555/results"),
+    let pokemones = await axios.get(
+        "https://api-json-server-omega.vercel.app/results"
+      ),
       json = await pokemones.data;
 
     json.forEach((el) => {
@@ -81,7 +86,7 @@ export async function borrar(btn) {
     let isDelete = confirm(`estas seguro eliminar ${btn.dataset.name}`);
     if (isDelete) {
       let pokemones = await axios.delete(
-        `http://localhost:5555/results/${btn.dataset.id}`
+        `https://api-json-server-omega.vercel.app/results/${btn.dataset.id}`
       );
     }
     location.reload();
