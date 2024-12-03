@@ -16,10 +16,7 @@ se puede ver detalles agregar y eliminar productos
 - [x] Peticion CRUD con axios
 
 ## Captura de Pantalla
-![Captura del proyecto](ruta/a/tu/captura.png)
+![Captura del proyecto](assets/capturae-comer.png)
 
-## Instalación
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repo.git
-
+## Link en vercel
+[E-comer](https://e-comer2.vercel.app/ "Title")
