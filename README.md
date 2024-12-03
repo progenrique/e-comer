@@ -1,4 +1,25 @@
-es un sistema imitando un e-comer de venta de productos poquemon 
-se pueden agregar productos 
-hay que levantar el servidor de la api en el puerto 5555
-en la carpeta db.json esta la base de datos de los pokemons
+# E-comer Pokemon
+
+una tienda virtual utilizando la API de pokemon simulando que son articulos,
+se puede ver detalles agregar y eliminar productos
+
+## Tecnologías Utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- axios
+
+## Funcionalidades
+- [x] Página responsiva
+- [x] Animaciones con CSS
+- [x] Interacción mediante JavaScript
+- [x] Peticion CRUD con axios
+
+## Captura de Pantalla
+![Captura del proyecto](ruta/a/tu/captura.png)
+
+## Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/nombre-del-repo.git
+
